@@ -1,7 +1,7 @@
 # CS175L-50
 # Vincent Tuberion
 # AverageFromInput.py
-# Last Modified 3/23/2022 19:07 EST
+# Last Modified 3/27/2022 22:17 EST
 
 def main():
     # Open a file named numbers.txt.
@@ -20,7 +20,7 @@ def main():
                 print(f"I read {lines_read} number(s) Current number is: {line:.2f} Total is: {total:.2f}")
             except ValueError:
                 print("I/O ERROR: Data in file 'numbers.txt' is not of valid type, skipping data")
-        print(total)
+        print("Average:", total/lines_read)
         # Close the file.
         infile.close()
     except NameError:
