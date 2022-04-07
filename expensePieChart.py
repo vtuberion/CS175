@@ -1,7 +1,7 @@
 # CS175L-50
-# Juliana Gomez, Adnan Hoti, Vincent Tuberion
+# Vincent Tuberion
 # expensePieChart.py
-# Last Modified 4/6/2022 19:20 EST
+# Last Modified 4/7/2022 19:02 EST
 
 import matplotlib.pyplot as plt
 
